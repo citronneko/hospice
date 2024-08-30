@@ -10,14 +10,19 @@ define m = Character('Me', kind=nvl, color="#c8c8ff")
 
 image bg black = im.Scale("images/black.jpg", 3840, 2160)
 image bg hospice = im.Scale("images/hospice.jpg", 3840, 2160)
+image bg string = im.Scale("images/string.jpg", 3840, 2160)
 define narrator = nvl_narrator
 
 label start:
 
-    scene bg black
+    scene bg string
 
     narrator """
     细线。
+    """
+    scene bg black
+
+    narrator"""
 
     城楼。
 

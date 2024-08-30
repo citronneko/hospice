@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/screens.rpy", line 1315: 'line_spacing' is not a keyword argument or valid child of the window statement.
-    line_spacing 5
-                ^
+File "game/script.rpy", line 25: expected statement.
+    narrator
+            ^
 
 Ren'Py Version: Ren'Py 8.2.3.24061702
-Thu Aug 29 19:15:37 2024
+Fri Aug 30 10:45:04 2024
