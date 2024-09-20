@@ -94,7 +94,13 @@ define config.end_game_transition = None
 
 ## A variable to set the transition used when the game starts does not exist.
 ## Instead, use a with statement after showing the initial scene.
-
+transform shake_text:
+    xpos 0.5 ypos 0.5
+    linear 0.05 xpos 0.48 ypos 0.52
+    linear 0.05 xpos 0.52 ypos 0.48
+    linear 0.05 xpos 0.48 ypos 0.48
+    linear 0.05 xpos 0.52 ypos 0.52
+    repeat
 
 ## Window management ###########################################################
 ##

@@ -2,9 +2,17 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 25: expected statement.
-    narrator
-            ^
+File "game/script.rpy", line 21: expected 'word' not found.
+    style.zhuyin.size = 15  
+         ^
+
+File "game/script.rpy", line 22: expected 'word' not found.
+    style.zhuyin.bold = True
+         ^
+
+File "game/script.rpy", line 23: expected 'word' not found.
+    style.zhuyin.yoffset = -35  
+         ^
 
 Ren'Py Version: Ren'Py 8.2.3.24061702
-Fri Aug 30 10:45:04 2024
+Thu Sep 19 20:22:20 2024
